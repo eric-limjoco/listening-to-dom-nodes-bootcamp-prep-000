@@ -139,7 +139,7 @@ Now, the event propagates from the top of the page towards the target node, trig
 
 Notice that the target node is the _last node to capture the event_, whereas it's the _first node to bubble the event up_. This is the most important takeaway.
 
-**NOTE**: Don't worry if bubbling and capturing seems a bit esoteric. The different event behaviors are the results of the browser wars of the 90s, but most of the time it's safe just to stick to the default (which, for the record, is bubbling). You can read more about bubbling and capture on [StackOverflow](http://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing) and [QuirksMode](http://www.quirksmode.org/js/events_order.html)
+**NOTE**: Don't worry if bubbling and capturing seems a bit esoteric. The different event behaviors are the results of the browser wars of the 90's, but most of the time it's safe just to stick to the default (which, for the record, is bubbling). You can read more about bubbling and capture on [StackOverflow](http://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing) and [QuirksMode](http://www.quirksmode.org/js/events_order.html)
 
 ## `stopPropagation()`
 
